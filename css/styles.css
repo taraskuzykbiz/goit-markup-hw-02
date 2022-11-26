@@ -1,7 +1,236 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+
+:root {
+  --brand-color: #4d5ae5;
+  --text-color: #2e2f42;
+}
+
+/* heder */
 .header {
-Family: Roboto
-Weight: Semibold
-Size: 56px
-Letter Spacing: 2%
-Line Height: 60px
+  background-color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #2e2f42;
+  line-height: 24px;
+  font-weight: 800;
+}
+
+.logo span {
+  color: var(--brand-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.page-links .link {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.page-links .link:hover,
+.page-links .link:focus {
+  color: var(--brand-color);
+}
+
+.page-links .link:active {
+  text-decoration: underline;
+  color: var(--brand-color);
+}
+
+.contact-links .link {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.contact-links .link:hover,
+.contact-links .link:focus {
+  color: var(--brand-color);
+}
+
+.contact-links .link:active {
+  color: var(--brand-color);
+}
+
+/* section-main */
+
+.section-main {
+  background-color: #2e2f42;
+}
+
+.title-hero {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 60px;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: var(--brand-color);
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
+}
+
+.btn:active {
+  text-decoration: underline blueviolet;
+}
+
+/*section advantage*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section advantage {
+  background-color: #ffffff;
+}
+
+.subject {
+  color: var(--text-color);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* section work */
+
+.section-work {
+  background-color: #ffffff;
+}
+
+.title-work {
+  font-size: 36px;
+  line-height: 40px;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+/* section team */
+
+.section-team {
+  background-color: #f4f4fd;
+}
+
+.title-team {
+  color: var(--text-color);
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.name {
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.profession {
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  font-weight: 400;
+}
+
+/*filter*/
+
+.all-filter-botton {
+  background-color: var(--brand-color);
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.all-filter-botton:active {
+  text-decoration: underline deepskyblue;
+}
+
+.filter-botton {
+  background-color: #f4f4fd;
+  color: var(--brand-color);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.filter-botton:active {
+  text-decoration: underline blueviolet;
+}
+
+/* proects */
+
+.proects {
+  background-color: #ffffff;
+}
+
+.title-proect {
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.direction {
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+  font-weight: 400;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.text-footer {
+  font-size: 16px;
+  line-height: 24px;
+  color: #e7e9fc;
+  font-weight: 400;
+}
+
+.footer .logo {
+  color: #f4f4fd;
 }
