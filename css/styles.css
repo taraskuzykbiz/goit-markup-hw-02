@@ -60,7 +60,7 @@ ul {
   color: var(--brand-color);
 }
 
-.contact-list .page-link {
+.contact-list .contact-link {
   color: var(--dark-color);
   font-size: 16px;
   line-height: 1.5;
@@ -68,12 +68,12 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.contact-list .page-link:hover,
-.contact-list .page-link:focus {
+.contact-list .contact-link:hover,
+.contact-list .contact-link:focus {
   color: var(--brand-color);
 }
 
-.contact-list .page-link:active {
+.contact-list .contact-link:active {
   color: var(--brand-color);
 }
 
