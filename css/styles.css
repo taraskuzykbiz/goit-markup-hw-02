@@ -1,8 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: var(--dark-color);
   size: 16px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 :root {
@@ -24,10 +24,6 @@ body {
   background-color: var(--white-color);
 }
 
-.link {
-  text-decoration: none;
-}
-
 .logo {
   text-transform: uppercase;
   text-decoration: none;
@@ -35,6 +31,7 @@ body {
   color: var(--dark-color);
   line-height: 1.5;
   font-weight: 800;
+  letter-spacing: 0.03em;
 }
 
 .logo span {
@@ -45,37 +42,43 @@ ul {
   list-style: none;
 }
 
-.page-links .link {
+.page-list .page-link {
   color: var(--dark-color);
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
-.page-links .link:hover,
-.page-links .link:focus {
+.page-list .page-link:hover,
+.page-list .page-link:focus {
   color: var(--brand-color);
 }
 
-.page-links .link:active {
-  text-decoration: underline;
+.page-list .page-link:active {
+  text-decoration: underline var(--btn-color);
   color: var(--brand-color);
 }
 
-.contact-links .link {
+.contact-list .page-link {
   color: var(--dark-color);
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
-.contact-links .link:hover,
-.contact-links .link:focus {
+.contact-list .page-link:hover,
+.contact-list .page-link:focus {
   color: var(--brand-color);
 }
 
-.contact-links .link:active {
+.contact-list .page-link:active {
   color: var(--brand-color);
+}
+
+.link-current {
+  color: var(--btn-color);
 }
 
 /* section-main */
@@ -87,8 +90,10 @@ ul {
 .title-hero {
   color: var(--white-color);
   font-size: 56px;
-  line-height: 3, 75;
+  line-height: 1.75;
   font-weight: 700;
+  letter-spacing: 0.02em;
+  font-family: inherit;
 }
 
 .btn {
@@ -98,6 +103,8 @@ ul {
   line-height: 1.1875;
   font-weight: 700;
   cursor: pointer;
+  letter-spacing: 0.04em;
+  font-family: inherit;
 }
 
 .btn:hover,
@@ -131,14 +138,14 @@ ul {
 .subject {
   color: var(--dark-color);
   font-size: 20px;
-  line-height: 1, 5;
+  line-height: 1.5;
   font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 .text {
-  font-size: 16px;
-  line-height: 1, 5;
-  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* section work */
@@ -149,9 +156,10 @@ ul {
 
 .title-work {
   font-size: 36px;
-  line-height: 2, 5;
+  line-height: 2.5;
   color: var(--dark-color);
   font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 /* section team */
@@ -163,22 +171,25 @@ ul {
 .title-team {
   color: var(--dark-color);
   font-size: 36px;
-  line-height: 2, 5;
+  line-height: 2.5;
   font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 .name {
   font-size: 20px;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: var(--dark-color);
   font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 .profession {
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: var(--text-color);
   font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
 /*filter*/
@@ -187,9 +198,10 @@ ul {
   background-color: var(--brand-color);
   color: var(--white-color);
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   font-weight: 700;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
 
 .all-filter-botton:hover,
@@ -205,9 +217,10 @@ ul {
   background-color: var(--light-color);
   color: var(--brand-color);
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   font-weight: 700;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
 
 .filter-botton:hover,
@@ -227,16 +240,18 @@ ul {
 
 .title-proect {
   font-size: 20px;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: var(--dark-color);
   font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 .direction {
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: var(--text-color);
   font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
 /*footer*/
@@ -247,9 +262,10 @@ ul {
 
 .text-footer {
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: var(--accent-color);
   font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
 .footer .logo {
