@@ -38,7 +38,7 @@ body {
   color: var(--brand-color);
 }
 
-ul {
+ul{
   list-style: none;
 }
 
@@ -54,11 +54,15 @@ text-decoration: none;
   letter-spacing: 0.02em;
 }
 
-.page-list .page-link:hover,
-.page-list .page-link:focus {
-  color: var(--brand-color);
+.current {
+  color: var(--btn-color);
 }
 
+.page-list .page-link:hover,
+.page-list .page-link:focus {
+  color: var(--brand-color); 
+}
+  
 .page-list .page-link:active {
   text-decoration: underline var(--btn-color);
   color: var(--brand-color);
@@ -79,10 +83,6 @@ text-decoration: none;
 
 .contact-list .contact-link:active {
   color: var(--brand-color);
-}
-
-.link-current {
-  color: var(--btn-color);
 }
 
 /* section-main */
@@ -149,7 +149,6 @@ text-decoration: none;
 
 .text {
   line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 /* section work */
@@ -189,18 +188,15 @@ text-decoration: none;
 }
 
 .profession {
-  font-size: 16px;
   line-height: 1.5;
   color: var(--text-color);
-  font-weight: 400;
-  letter-spacing: 0.02em;
 }
 
 /*filter*/
 
 .all-filter-botton {
-  background-color: var(--brand-color);
-  color: var(--white-color);
+  background-color: var(--white-color);
+  color:var(--brand-color) ;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 700;
@@ -210,7 +206,8 @@ text-decoration: none;
 
 .all-filter-botton:hover,
 .all-filter-botton:focus {
-  text-decoration: underline var(--underline-color);
+  background-color: var(--brand-color);
+  color: var(--white-color);
 }
 
 .all-filter-botton:active {
@@ -229,7 +226,8 @@ text-decoration: none;
 
 .filter-botton:hover,
 .filter-botton:focus {
-  text-decoration: underline var(--button-decoratin-color);
+  background-color: var(--brand-color);
+  color: var(--light-color);
 }
 
 .filter-botton:active {
