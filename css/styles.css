@@ -52,10 +52,7 @@ text-decoration: none;
   line-height: 1.5;
   font-weight: 700;
   letter-spacing: 0.02em;
-}
-
-.current {
-  color: var(--btn-color);
+  cursor: pointer;
 }
 
 .page-list .page-link:hover,
@@ -74,6 +71,7 @@ text-decoration: none;
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.02em;
+  cursor: pointer;
 }
 
 .contact-list .contact-link:hover,
@@ -83,6 +81,10 @@ text-decoration: none;
 
 .contact-list .contact-link:active {
   color: var(--brand-color);
+}
+
+.current {
+  color: var(--btn-color);
 }
 
 /* section-main */
