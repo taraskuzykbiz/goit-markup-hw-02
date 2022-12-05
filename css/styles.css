@@ -341,7 +341,7 @@ border-radius: 4px;
 
 .proect {
 background-color: var(--white-color);
-flex-basis: calc((100% - 48px) / 3)
+flex-basis: calc((100% - 48px) / 3);
 border: 0.5px solid var(--light-color);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
